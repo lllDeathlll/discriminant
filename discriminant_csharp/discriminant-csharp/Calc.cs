@@ -30,7 +30,7 @@ namespace discriminant_csharp
 
             else if (b == 0)
             {
-                double x1 = Math.Sqrt(a / c * -1);
+                double x1 = Math.Sqrt(c / a * -1);
                 double x2 = x1 * -1;
                 return (x1, x2);
             }
